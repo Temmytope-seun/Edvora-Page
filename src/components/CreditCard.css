@@ -1,0 +1,45 @@
+
+.cc-container {
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  width: 350px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgb(214, 98, 140) , rgb(113, 68, 196));
+}
+
+.cc-container-top p {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cc-container-chip {
+  width: 50px;
+  height: 50px;
+}
+.cc-container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cc-container-footer > p{
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 3em;
+}
+.slide, .active-anim {
+  position: absolute;
+  transition: opacity ease-in-out 0.4s;
+}
+@media screen and (max-width: 650px) {
+    .cc-container {
+      width: 200px;
+      height: 160px;
+    }
+}
